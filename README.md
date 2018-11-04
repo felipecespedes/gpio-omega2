@@ -16,7 +16,7 @@ const GpioOmega2 = require('gpio-omega2');
 const gpio = new GpioOmega2();
 const pinNumber = 0;
 const pin = gpio.pin({pin: pinNumber, mode: 'output'});
-ping.high();
+pin.high();
 ```
 
 ### Turn on a led
